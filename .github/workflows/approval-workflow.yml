@@ -1,2 +1,5 @@
 name: Approval workflow
 on: pull_request_review
+job:
+  labelWhenApproved:
+    runs-on: ubuntu-latest
